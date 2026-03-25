@@ -11,11 +11,11 @@
                     <input
                     type="text"
                     class="form-control"
-                    placeholder="Nombre del usuario"
+                    placeholder="Nombre y apellido"
                     formControlName="name"
                     />
                     @if (formUtils.isValidField(myForm, 'name')){
-                        <span class="form-text text-danger"> {{formUtils.getFieldError(myForm, 'name')}} </span>
+                        <span class="form-text text-danger"> El campo debe tener nombre y apellido <!-- {{formUtils.getFieldError(myForm, 'name')}} --> </span>
                     }
                 </div>
             </div>
@@ -31,7 +31,7 @@
                     formControlName="email"
                     />
                     @if (formUtils.isValidField(myForm, 'email')){
-                        <span class="form-text text-danger"> {{formUtils.getFieldError(myForm, 'email')}} </span>
+                        <span class="form-text text-danger"> <!-- {{formUtils.getFieldError(myForm, 'email')}} --> </span>
                     }
                 </div>
             </div>
