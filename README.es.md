@@ -27,12 +27,12 @@ El objetivo de este proyecto es practicar conceptos de Angular tales como:
 
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/Antonio-Borrero/Angular-reactive-forms-app.git
+   git clone https://github.com/Antonio-Borrero/reactive-forms-app-angular.git
    ```
 
 2. Entrar en la carpeta del proyecto:
    ```bash
-   cd Angular-reactive-forms-app
+   cd reactive-forms-app-angular
    ```
    
 3. Instalar las dependencias:
