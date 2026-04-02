@@ -27,12 +27,12 @@ The goal of this project is to practice Angular concepts such as:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Antonio-Borrero/Angular-reactive-forms-app.git
+   git clone https://github.com/Antonio-Borrero/reactive-forms-app-angular.git
    ```
 
 2. Enter the project folder:
    ```bash
-   cd Angular-reactive-forms-app
+   cd reactive-forms-app-angular
    ```
    
 3. Install dependencies:
