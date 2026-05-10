@@ -6,16 +6,21 @@ English | [Español](README.es.md)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=TypeScript&logoColor=white)](https://www.typescriptlang.org/)
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
 
+![Forms Preview](assets/preview.png)
+
+<br>
+
 This is a **learning and practice project** built with Angular to explore and understand how **reactive forms** work.
 The application demonstrates different types of form controls such as **text and number inputs, switches, radio buttons, and select inputs populated with data from the REST Countries API**, including dynamic data rendering and form state management.
 The goal of this project is to practice Angular concepts such as:
 
-- Building and managing reactive forms
-- Handling form validation and user input states
-- Creating dynamic and reusable form components
-- Consuming external APIs and integrating data into form controls
-- Managing reactive data flows using RxJS
-- Working with strongly typed data in Angular applications
+- **Dynamic FormArrays:** Implementation of fields that can be added or removed in real-time (CRUD-like behavior in forms).
+- **Advanced Validations:** Custom synchronous and asynchronous validators, including complex error message handling.
+- **REST API Integration:** Populating select inputs with dynamic data from the **REST Countries API**.
+- **RxJS Data Flows:** Managing reactive state and side effects within form lifecycle.
+- **UI/UX State:** Visual feedback for user input states (`valid`, `invalid`, `touched`, `dirty`).
+
+<br>
 
 ## Tech Stack
 
@@ -23,31 +28,31 @@ The goal of this project is to practice Angular concepts such as:
 - TypeScript
 - Bootstrap 5.3
 
+<br>
+
 ## Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/Antonio-Borrero/reactive-forms-app-angular.git
    ```
 
-2. Enter the project folder:
-   ```bash
-   cd reactive-forms-app-angular
-   ```
-   
-3. Install dependencies:
+2. Install dependencies:
    ```bash
    npm install
    ```
-   
-4. Development Server:
+3. Run development Server:
+
    ```bash
    ng serve
    ```
 
-5. Open in browser:
+4. Open in browser:
    - Go to `http://localhost:4200/`.
    - The app will automatically reload when any file is modified
+
+<br>
 
 ## Features
 
@@ -59,7 +64,7 @@ The goal of this project is to practice Angular concepts such as:
 - Select inputs populated with data from an external API
 - Reactive data handling using RxJS
 
-## Learning 
+## Learning
 
 - How reactive forms work in Angular
 - Creating and managing form controls and form groups

@@ -6,16 +6,22 @@ Español | [English](README.md)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=TypeScript&logoColor=white)](https://www.typescriptlang.org/)
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
 
-Este es un proyecto de **aprendizaje y práctica** construido con Angular para explorar y comprender cómo funcionan los **formularios reactivos**.
+![Forms Preview](assets/preview.png)
+
+<br>
+
+Este es un **proyecto de aprendizaje y práctica** construido con Angular para explorar y comprender cómo funcionan los **formularios reactivos**.
 La aplicación demuestra diferentes tipos de controles de formulario, como **inputs de texto y número, switches, radio buttons y selectores poblados con datos de la API REST Countries**, incluyendo renderizado dinámico de datos y gestión del estado del formulario.
+
 El objetivo de este proyecto es practicar conceptos de Angular tales como:
 
-- Construcción y gestión de formularios reactivos
-- Manejo de validaciones y estados de los inputs
-- Creación de componentes de formulario dinámicos y reutilizables
-- Consumo de APIs externas e integración de datos en los formularios
-- Gestión de flujos de datos reactivos usando RxJS
-- Trabajo con datos fuertemente tipados en aplicaciones Angular
+- **FormArrays Dinámicos:** Implementación de campos que se pueden añadir o eliminar en tiempo real (comportamiento tipo CRUD).
+- **Validaciones Avanzadas:** Validadores personalizados síncronos y asíncronos, incluyendo gestión compleja de mensajes de error.
+- **Integración de API REST:** Carga de selectores con datos dinámicos provenientes de la **REST Countries API**.
+- **Flujos de Datos RxJS:** Gestión de estados reactivos y efectos secundarios dentro del ciclo de vida del formulario.
+- **Estado de UI/UX:** Feedback visual basado en los estados del input (`valid`, `invalid`, `touched`, `dirty`).
+
+<br>
 
 ## Tecnologías
 
@@ -23,31 +29,31 @@ El objetivo de este proyecto es practicar conceptos de Angular tales como:
 - TypeScript
 - Bootstrap 5.3
 
+<br>
+
 ## Instalación
 
 1. Clonar el repositorio:
+
    ```bash
    git clone https://github.com/Antonio-Borrero/reactive-forms-app-angular.git
    ```
 
-2. Entrar en la carpeta del proyecto:
-   ```bash
-   cd reactive-forms-app-angular
-   ```
-   
-3. Instalar las dependencias:
+2. Instalar las dependencias:
    ```bash
    npm install
    ```
-   
-4. Ejecutar la aplicación en modo desarrollo:
+3. Ejecutar la aplicación en modo desarrollo:
+
    ```bash
    ng serve
    ```
 
-5. Abrir en el navegador:
+4. Abrir en el navegador:
    - Ir a http://localhost:4200/.
    - La aplicación se recargará automáticamente cuando se modifique algún archivo
+
+<br>
 
 ## Funcionalidades
 
@@ -59,6 +65,8 @@ El objetivo de este proyecto es practicar conceptos de Angular tales como:
 - Selectores poblados con datos de una API externa
 - Gestión de datos reactiva usando RxJS
 
+<br>
+
 ## Aprendizajes
 
 - Cómo funcionan los formularios reactivos en Angular
@@ -68,6 +76,8 @@ El objetivo de este proyecto es practicar conceptos de Angular tales como:
 - Gestión de datos dinámicos dentro de los formularios
 - Integración de datos externos en los formularios (consumo de APIs)
 - Uso de RxJS para manejar flujos de datos reactivos
+
+<br>
 
 ## Estructura del proyecto
 
@@ -96,6 +106,8 @@ El objetivo de este proyecto es practicar conceptos de Angular tales como:
     │
     └───utils                       # Funciones auxiliares para validaciones personalizadas y manejo de mensajes de error
 ```
+
+<br>
 
 ## Produccion
 
