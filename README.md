@@ -10,7 +10,7 @@ English | [Español](README.es.md)
 
 <br>
 
-This is a **learning and practice project** built with Angular to explore and understand how **reactive forms** work.
+This is a **learning and practice project** built with Angular as part of the **DevTalles (Fernando Herrera) Angular course** to explore and understand how **reactive forms** work.
 The application demonstrates different types of form controls such as **text and number inputs, switches, radio buttons, and select inputs populated with data from the REST Countries API**, including dynamic data rendering and form state management.
 The goal of this project is to practice Angular concepts such as:
 
