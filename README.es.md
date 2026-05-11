@@ -10,7 +10,7 @@ Español | [English](README.md)
 
 <br>
 
-Este es un **proyecto de aprendizaje y práctica** construido con Angular para explorar y comprender cómo funcionan los **formularios reactivos**.
+Este es un **proyecto de aprendizaje y práctica** construido con Angular como parte del **curso de Angular de DevTalles (Fernando Herrera)** para explorar y comprender cómo funcionan los **formularios reactivos**.
 La aplicación demuestra diferentes tipos de controles de formulario, como **inputs de texto y número, switches, radio buttons y selectores poblados con datos de la API REST Countries**, incluyendo renderizado dinámico de datos y gestión del estado del formulario.
 
 El objetivo de este proyecto es practicar conceptos de Angular tales como:
